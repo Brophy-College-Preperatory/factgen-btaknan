@@ -1,46 +1,46 @@
 * {   /* Reset the margin and padding for all the elements */
-   margin: 0px;
-   padding: 0px;
+   margin: 0px; /*no margin*/
+   padding: 0px;/*no spacing*/
 }
 
 body {
-  font-family: 'Overpass', sans-serif; 
-  text-align: center; 
+  font-family: 'Overpass', sans-serif; /*sets a font familyfor the body*/
+  text-align: center; /*centers the text*/
   color: #003046; /* Default text color */
   background-color: #F9E9EC;/* Background color */
 }
 
 h1 {
-  background-color: #FAC748;
-  color:#1D2F6F;
-  text-align: center; 
-  font-family: 'Playfair Display', serif;
+  background-color: #FAC748; /*makes a yellow background color*/
+  color:#1D2F6F; /*text color*/
+  text-align: center; /*centeres text*/
+  font-family: 'Playfair Display', serif; /*makes the font playfair display*/
 }
 
 main {
-  margin: 0 auto;
-  max-width: 60%;
-  text-align: center;
-  font-family: 'Overpass', sans-serif; 
+  margin: 0 auto; /*centers automatically*/
+  max-width: 60%; /*maximum width is 60%*/
+  text-align: center; /*centers text*/
+  font-family: 'Overpass', sans-serif;  /*font is overpass*/
 }
 
 /* STYLE TEXT */
 p {
-  font-size: 1.2em;
-  text-align: left; 
-  padding-top: 1em;
-  padding-bottom: 1em;
+  font-size: 1.2em; /*makes font size*/
+  text-align: left;  /*aligns text to the left*/
+  padding-top: 1em; /*makes spacing to top*/
+  padding-bottom: 1em;/*adds spacing to bottom*/
 }
 
 #fact {
-  font-weight: 700;
-  font-size: 1.5em;
-  text-align: center;
-  margin-top: 1.5em;
+  font-weight: 700; /*font weight is 700*/
+  font-size: 1.5em;/*font size*/
+  text-align: center;/*aligns to center*/
+  margin-top: 1.5em;/*adds top margin*/
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.2em; /*same as above*/
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -49,9 +49,9 @@ h1 {
 
 /* STYLE BUTTON */
 button {
-  background: #FAC748;
-  padding: 10px;
-  font-family: 'Playfair Display', serif;
-  font-size: 1em;
-  border-style: none;
+  background: #FAC748; /*makes background color*/
+  padding: 10px;/*sets the spacing*/
+  font-family: 'Playfair Display', serif;/*sets the font*/
+  font-size: 1em;/*sets the font size*/
+  border-style: none;/*no border style*/
 }
